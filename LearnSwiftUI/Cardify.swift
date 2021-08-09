@@ -10,15 +10,12 @@ import SwiftUI
 struct Cardify: ViewModifier {
 
     func body(content: Content) -> some View {
-        let shape = Rectangle()
-        ZStack {
-            shape
-                .foregroundColor(.white)
-                .cornerRadius(10)
-                .shadow(radius: 3)
-                .padding()
-            content
-        }
+        content
+            .padding()
+            .background(Color("WhiteDarkMode"))
+            .cornerRadius(15)
+            .shadow(radius: 3)
+            .padding(3)
     }
 }
 

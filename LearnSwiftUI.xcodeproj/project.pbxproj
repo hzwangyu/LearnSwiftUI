@@ -15,6 +15,7 @@
 		0675A89026C000CD0098E0D2 /* LayoutRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675A88F26C000CD0098E0D2 /* LayoutRelatedView.swift */; };
 		0675A89226C002490098E0D2 /* ShapeRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675A89126C002490098E0D2 /* ShapeRelatedView.swift */; };
 		0675A89426C0072F0098E0D2 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675A89326C0072F0098E0D2 /* Cardify.swift */; };
+		0675A89626C0DB640098E0D2 /* ControlRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675A89526C0DB640098E0D2 /* ControlRelatedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0675A88F26C000CD0098E0D2 /* LayoutRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutRelatedView.swift; sourceTree = "<group>"; };
 		0675A89126C002490098E0D2 /* ShapeRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRelatedView.swift; sourceTree = "<group>"; };
 		0675A89326C0072F0098E0D2 /* Cardify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		0675A89526C0DB640098E0D2 /* ControlRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRelatedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +64,14 @@
 			children = (
 				0675A87C26BFF5CC0098E0D2 /* LearnSwiftUIApp.swift */,
 				0675A87E26BFF5CC0098E0D2 /* ContentView.swift */,
-				0675A88026BFF5D00098E0D2 /* Assets.xcassets */,
-				0675A88526BFF5D00098E0D2 /* Info.plist */,
-				0675A88226BFF5D00098E0D2 /* Preview Content */,
 				0675A88B26BFF8910098E0D2 /* TextRelatedView.swift */,
 				0675A88F26C000CD0098E0D2 /* LayoutRelatedView.swift */,
 				0675A89126C002490098E0D2 /* ShapeRelatedView.swift */,
 				0675A89326C0072F0098E0D2 /* Cardify.swift */,
+				0675A89526C0DB640098E0D2 /* ControlRelatedView.swift */,
+				0675A88526BFF5D00098E0D2 /* Info.plist */,
+				0675A88026BFF5D00098E0D2 /* Assets.xcassets */,
+				0675A88226BFF5D00098E0D2 /* Preview Content */,
 			);
 			path = LearnSwiftUI;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				0675A89426C0072F0098E0D2 /* Cardify.swift in Sources */,
 				0675A89026C000CD0098E0D2 /* LayoutRelatedView.swift in Sources */,
+				0675A89626C0DB640098E0D2 /* ControlRelatedView.swift in Sources */,
 				0675A87F26BFF5CC0098E0D2 /* ContentView.swift in Sources */,
 				0675A87D26BFF5CC0098E0D2 /* LearnSwiftUIApp.swift in Sources */,
 				0675A89226C002490098E0D2 /* ShapeRelatedView.swift in Sources */,
