@@ -13,7 +13,8 @@ struct ContentView: View {
         ViewCard(id: 1, name: "文本视图", icon: "textbox", type: .text),
         ViewCard(id: 2, name: "排版视图", icon: "text.alignleft", type: .layout),
         ViewCard(id: 3, name: "绘图视图", icon: "square.on.circle", type: .shape),
-        ViewCard(id: 4, name: "控制视图", icon: "switch.2", type: .control)
+        ViewCard(id: 4, name: "控制视图", icon: "switch.2", type: .control),
+        ViewCard(id: 5, name: "层级视图", icon: "sidebar.squares.left", type: .hierarchy)
     ]
     
     var body: some View {
@@ -65,6 +66,8 @@ struct ContentView: View {
                 ShapeRelatedView()
             case .control:
                 ControlRelatedView()
+            case .hierarchy:
+                HierarchyRelatedView()
             }
         }
     }
@@ -83,6 +86,7 @@ enum CardType {
     case layout
     case shape
     case control
+    case hierarchy
 }
 
 struct ContentView_Previews: PreviewProvider {

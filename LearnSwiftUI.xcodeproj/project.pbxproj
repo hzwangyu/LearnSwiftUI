@@ -16,6 +16,7 @@
 		0675A89226C002490098E0D2 /* ShapeRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675A89126C002490098E0D2 /* ShapeRelatedView.swift */; };
 		0675A89426C0072F0098E0D2 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675A89326C0072F0098E0D2 /* Cardify.swift */; };
 		0675A89626C0DB640098E0D2 /* ControlRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675A89526C0DB640098E0D2 /* ControlRelatedView.swift */; };
+		0675A89826C1475A0098E0D2 /* HierarchyRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675A89726C1475A0098E0D2 /* HierarchyRelatedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0675A89126C002490098E0D2 /* ShapeRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRelatedView.swift; sourceTree = "<group>"; };
 		0675A89326C0072F0098E0D2 /* Cardify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		0675A89526C0DB640098E0D2 /* ControlRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRelatedView.swift; sourceTree = "<group>"; };
+		0675A89726C1475A0098E0D2 /* HierarchyRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyRelatedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				0675A89126C002490098E0D2 /* ShapeRelatedView.swift */,
 				0675A89326C0072F0098E0D2 /* Cardify.swift */,
 				0675A89526C0DB640098E0D2 /* ControlRelatedView.swift */,
+				0675A89726C1475A0098E0D2 /* HierarchyRelatedView.swift */,
 				0675A88526BFF5D00098E0D2 /* Info.plist */,
 				0675A88026BFF5D00098E0D2 /* Assets.xcassets */,
 				0675A88226BFF5D00098E0D2 /* Preview Content */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0675A89826C1475A0098E0D2 /* HierarchyRelatedView.swift in Sources */,
 				0675A89426C0072F0098E0D2 /* Cardify.swift in Sources */,
 				0675A89026C000CD0098E0D2 /* LayoutRelatedView.swift in Sources */,
 				0675A89626C0DB640098E0D2 /* ControlRelatedView.swift in Sources */,
